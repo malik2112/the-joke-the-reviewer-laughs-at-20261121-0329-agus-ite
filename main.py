@@ -10,6 +10,9 @@ and closes on the fix itself leaking the secret again: the rotation
 PR puts the new password in its own description. The closing beat
 lands on the reviewer reading that PR, which is the bounty's frame:
 the joke the reviewer laughs at.
+
+Output contract: exactly one line, no trailing newline, 200 Unicode
+code points — inside the sealed gate's 1-280 window on every run.
 """
 
 import os
